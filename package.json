@@ -1,0 +1,40 @@
+{
+  "name": "jsonp-p",
+  "version": "0.0.1",
+  "description": "jsonp promisify wrapper.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sugarshin/jsonp-p.git"
+  },
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js",
+    "test",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test": "mocha --compilers js:espower-babel/guess test/**/*.js",
+    "start": "npm run compile -- -w",
+    "compile": "babel -d lib src",
+    "build": "npm run lint && npm run compile"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0",
+    "espower-babel": "^3.3.0",
+    "jsdom": "^6.5.1",
+    "mocha": "^2.3.3",
+    "power-assert": "^1.1.0"
+  },
+  "dependencies": {
+    "jsonp": "^0.2.0",
+    "object-assign": "^4.0.1",
+    "qs": "^5.1.0"
+  }
+}
