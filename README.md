@@ -19,14 +19,7 @@ npm i jsonp-p
 ```js
 import jsonpP from 'jsonp-p';
 
-// default
-const jsonpConfig = {
-  timeout: 60000,
-  prefix: '__jp',
-  name: // prefix + incremented counter
-};
-
-jsonpP(url, jsonpConfig, ...restParams)
+jsonpP(url, jsonpOpts)
   .then(response => {})
   .catch(error => {});
 ```
