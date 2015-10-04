@@ -14,8 +14,6 @@ npm i jsonp-p
 
 ## Usage
 
-### `jsonpP(url, config, ...queryParams);`
-
 ```js
 import jsonpP from 'jsonp-p';
 
