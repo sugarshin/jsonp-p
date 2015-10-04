@@ -1,6 +1,6 @@
 {
   "name": "jsonp-p",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "jsonp promisify wrapper.",
   "repository": {
     "type": "git",
