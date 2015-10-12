@@ -24,6 +24,12 @@ jsonpP(url, jsonpOpts)
 
 **Promise is required**
 
+### `jsonpOpts`
+
+[https://github.com/webmodules/jsonp#jsonpurl-opts-fn](https://github.com/webmodules/jsonp#jsonpurl-opts-fn)
+
+opts
+
 ## Contributing
 
 1. Fork it!
