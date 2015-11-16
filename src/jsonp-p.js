@@ -4,8 +4,6 @@
  * License: MIT
  */
 
-'use strict';
-
 import jsonp from 'jsonp';
 
 /**
@@ -23,7 +21,7 @@ import jsonp from 'jsonp';
 export default function jsonpP(url, config) {
   return new Promise((resolve, reject) => {
     jsonp(url, config, (err, res) => {
-      if (err) reject(err);
+      if (err) { reject(err); }
       resolve(res);
     });
   });
