@@ -1,6 +1,8 @@
 # jsonp-p
 
 [![Build Status][travis-image]][travis-url]
+[![Dependency Status][david-image]][david-url]
+[![Devdependency Status][david-dev-image]][david-dev-url]
 [![GitHub version][github-ver-image]][github-ver-url]
 [![License][license-image]][license-url]
 
@@ -46,17 +48,13 @@ opts
 
 [npm-image]: http://img.shields.io/npm/v/jsonp-p.svg
 [npm-url]: https://www.npmjs.org/package/jsonp-p
-[bower-image]: http://img.shields.io/bower/v/jsonp-p.svg
-[bower-url]: http://bower.io/search/?q=jsonp-p
+[david-image]: https://david-dm.org/sugarshin/jsonp-p.svg
+[david-url]: https://david-dm.org/sugarshin/jsonp-p
+[david-dev-image]: https://david-dm.org/sugarshin/jsonp-p/dev-status.svg
+[david-dev-url]: https://david-dm.org/sugarshin/jsonp-p#info=devDependencies
 [travis-image]: http://img.shields.io/travis/sugarshin/jsonp-p/master.svg?branch=master
 [travis-url]: https://travis-ci.org/sugarshin/jsonp-p
-[gratipay-image]: http://img.shields.io/gratipay/sugarshin.svg
-[gratipay-url]: https://gratipay.com/sugarshin/
-[coveralls-image]: https://coveralls.io/repos/sugarshin/jsonp-p/badge.svg
-[coveralls-url]: https://coveralls.io/r/sugarshin/jsonp-p
 [github-ver-image]: https://badge.fury.io/gh/sugarshin%2Fjsonp-p.svg
 [github-ver-url]: http://badge.fury.io/gh/sugarshin%2Fjsonp-p
 [license-image]: http://img.shields.io/:license-mit-blue.svg
 [license-url]: http://sugarshin.mit-license.org/
-[downloads-image]: http://img.shields.io/npm/dm/jsonp-p.svg
-[dependencies-image]: http://img.shields.io/david/sugarshin/jsonp-p.svg
