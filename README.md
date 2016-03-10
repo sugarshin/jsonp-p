@@ -1,9 +1,9 @@
 # jsonp-p
 
+[![npm version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
 [![Devdependency Status][david-dev-image]][david-dev-url]
-[![GitHub version][github-ver-image]][github-ver-url]
 [![License][license-image]][license-url]
 
 [jsonp](https://github.com/webmodules/jsonp) promisify wrapper.
@@ -46,15 +46,13 @@ opts
 
 © sugarshin
 
-[npm-image]: http://img.shields.io/npm/v/jsonp-p.svg
+[npm-image]: http://img.shields.io/npm/v/jsonp-p.svg?style=flat-square
 [npm-url]: https://www.npmjs.org/package/jsonp-p
-[david-image]: https://david-dm.org/sugarshin/jsonp-p.svg
+[david-image]: https://david-dm.org/sugarshin/jsonp-p.svg?style=flat-square
 [david-url]: https://david-dm.org/sugarshin/jsonp-p
-[david-dev-image]: https://david-dm.org/sugarshin/jsonp-p/dev-status.svg
+[david-dev-image]: https://david-dm.org/sugarshin/jsonp-p/dev-status.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/sugarshin/jsonp-p#info=devDependencies
-[travis-image]: http://img.shields.io/travis/sugarshin/jsonp-p/master.svg?branch=master
+[travis-image]: http://img.shields.io/travis/sugarshin/jsonp-p/master.svg?branch=master&style=flat-square
 [travis-url]: https://travis-ci.org/sugarshin/jsonp-p
-[github-ver-image]: https://badge.fury.io/gh/sugarshin%2Fjsonp-p.svg
-[github-ver-url]: http://badge.fury.io/gh/sugarshin%2Fjsonp-p
-[license-image]: http://img.shields.io/:license-mit-blue.svg
+[license-image]: http://img.shields.io/:license-mit-blue.svg?style=flat-square
 [license-url]: http://sugarshin.mit-license.org/
