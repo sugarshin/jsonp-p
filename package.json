@@ -18,10 +18,10 @@
     "xhr"
   ],
   "scripts": {
-    "eslint": "eslint src",
+    "lint": "eslint src",
     "test": "mocha --compilers js:espower-babel/guess test/**/*.js",
-    "transpile": "babel -d lib --presets es2015 --no-babelrc src",
-    "prepublish": "npm run eslint && npm run transpile && npm test"
+    "build": "babel -d lib --presets es2015 --no-babelrc src",
+    "prepublish": "npm run lint && npm run build && npm test"
   },
   "author": "sugarshin",
   "license": "MIT",
