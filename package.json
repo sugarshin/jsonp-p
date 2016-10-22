@@ -6,21 +6,19 @@
     "type": "git",
     "url": "git@github.com:sugarshin/jsonp-p.git"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "lib",
-    "index.js"
+    "lib"
   ],
   "keywords": [
     "jsonp",
     "promise",
-    "request",
-    "xhr"
+    "request"
   ],
   "scripts": {
     "lint": "eslint src",
     "test": "mocha --compilers js:babel-register --require test/.setup.js test/**/*.js",
-    "build": "babel -d lib --presets es2015 --no-babelrc src",
+    "build": "babel -d lib src",
     "prepublish": "npm run lint && npm test && npm run build"
   },
   "author": "sugarshin",
@@ -31,11 +29,11 @@
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-power-assert": "^1.0.0",
     "babel-register": "^6.16.3",
-    "eslint": "^3.7.1",
+    "eslint": "^3.8.1",
     "eslint-config-sugarshin": "^1.0.1",
     "eslint-plugin-babel": "^3.3.0",
-    "jsdom": "^9.6.0",
-    "mocha": "^3.1.0",
+    "jsdom": "^9.8.0",
+    "mocha": "^3.1.2",
     "power-assert": "^1.4.1"
   },
   "dependencies": {

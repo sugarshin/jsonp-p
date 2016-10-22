@@ -5,5 +5,3 @@ cache:
     - node_modules
 node_js:
   - "stable"
-before_script:
-  - npm run build
