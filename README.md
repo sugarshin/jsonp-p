@@ -19,7 +19,7 @@ npm i jsonp-p
 ```js
 import jsonpP from 'jsonp-p';
 
-jsonpP(url, jsonpOpts)
+jsonpP(url, jsonpOpts).promise
   .then(response => {})
   .catch(error => {});
 ```
@@ -30,7 +30,12 @@ jsonpP(url, jsonpOpts)
 
 [https://github.com/webmodules/jsonp#jsonpurl-opts-fn](https://github.com/webmodules/jsonp#jsonpurl-opts-fn)
 
-opts
+### Cancel
+
+```js
+const { cancel } = jsonpP(url);
+cancel(); // Canceled
+```
 
 ## Contributing
 
@@ -46,13 +51,13 @@ opts
 
 © sugarshin
 
-[npm-image]: http://img.shields.io/npm/v/jsonp-p.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/jsonp-p.svg?style=flat-square
 [npm-url]: https://www.npmjs.org/package/jsonp-p
 [david-image]: https://david-dm.org/sugarshin/jsonp-p.svg?style=flat-square
 [david-url]: https://david-dm.org/sugarshin/jsonp-p
 [david-dev-image]: https://david-dm.org/sugarshin/jsonp-p/dev-status.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/sugarshin/jsonp-p#info=devDependencies
-[travis-image]: http://img.shields.io/travis/sugarshin/jsonp-p/master.svg?branch=master&style=flat-square
+[travis-image]: https://img.shields.io/travis/sugarshin/jsonp-p/master.svg?branch=master&style=flat-square
 [travis-url]: https://travis-ci.org/sugarshin/jsonp-p
-[license-image]: http://img.shields.io/:license-mit-blue.svg?style=flat-square
-[license-url]: http://sugarshin.mit-license.org/
+[license-image]: https://img.shields.io/:license-mit-blue.svg?style=flat-square
+[license-url]: https://sugarshin.mit-license.org/
